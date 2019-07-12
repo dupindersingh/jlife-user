@@ -1,0 +1,181 @@
+{"users": [
+{
+  "localId": "6X9Nas0HjwP63TtsMmaKcHmBNKj1",
+  "email": "greg@danieladvisors.com",
+  "emailVerified": false,
+  "passwordHash": "8YvO6VNIJO9sF9Oo5qx4veq5nDGhNTKontIL1QZhmv+91uAkjBL3tcfaQ7BqkiLzXUdx+FrZANVGBoCb+HBLSA==",
+  "salt": "ZRiOc5d12UzdfQ==",
+  "lastSignedInAt": "1557858305035",
+  "createdAt": "1556803215654",
+  "providerUserInfo": []
+},
+{
+  "localId": "9b6D2oTMOnfjh1K1I2ZDAQCN8sn1",
+  "email": "jonathan@kairosgarage.com",
+  "emailVerified": true,
+  "passwordHash": "6TVwiyMP3PKrVXl7/u9p1FzLSFK/G//k6HSl2X7SYky5Eu1gmEi39LJkRL8A1rguXSy8g2ig38zGYW4YeeYriA==",
+  "salt": "jN8l/iBPqjLbuw==",
+  "lastSignedInAt": "1555804547670",
+  "createdAt": "1555599486693",
+  "providerUserInfo": []
+},
+{
+  "localId": "EjQiHoKEULV4oK2W68dfzwMCuhi2",
+  "email": "scaldwellgvc@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "vbV0Zj9Ue7k5bx44zPQrvY3+XNl1Mh69s4HI+Md3MG4oPgW7r2wksODpBCWUmYVMXiaKb5Y/wgzQpP8YbmZORg==",
+  "salt": "QvnvT6iQsSVPWw==",
+  "lastSignedInAt": "1556745533518",
+  "createdAt": "1556745533518",
+  "providerUserInfo": []
+},
+{
+  "localId": "EtyqIvOEzyQs2GGjblVtHdHIBqY2",
+  "email": "jamesberry4@comcast.net",
+  "emailVerified": false,
+  "passwordHash": "KUUtaU3RoFtlbpyetjBc3O1BqZ+jCc/oqdxYXsdcI2IRLIouNZPFHKPX+2sre9ipCfbwcZ5Z5r7UOk82kz4/PA==",
+  "salt": "9Zmc8yUX0KcN1A==",
+  "lastSignedInAt": "1556827692826",
+  "createdAt": "1556827692826",
+  "providerUserInfo": []
+},
+{
+  "localId": "Eze5ppoDCBQU7Ts4juIbEEQ1IMh1",
+  "email": "jonathan@gojourneylife.com",
+  "emailVerified": false,
+  "passwordHash": "ziieraf3+89OSB2zj5wxL0SLCrcUU4IK/IdeJGu4tnHdqOkvZtEQTrzziACjDzyexhyumQzqtgri/HMR7iBsIQ==",
+  "salt": "a8feVmWRSA3FIA==",
+  "lastSignedInAt": "1557944994707",
+  "createdAt": "1555194353711",
+  "providerUserInfo": []
+},
+{
+  "localId": "HLW5Q11SYWhz9VuY2hP6LyQMufz1",
+  "email": "rebekah@danieladvisors.com",
+  "emailVerified": false,
+  "passwordHash": "JBBfsfs202WDCmRiDG2lu+xYkDjbDGutw3I7DtexySSUgo1tVlGWEcL0ApjNXdyHg0vJJQe4ZuhJHe74PJyLkg==",
+  "salt": "/1Fj1U26o45JZw==",
+  "lastSignedInAt": "1556562521142",
+  "createdAt": "1556553756751",
+  "providerUserInfo": []
+},
+{
+  "localId": "IB1jod7TO3SVRjCpJbWzmVlG4992",
+  "email": "msfarol05@hotmail.com",
+  "emailVerified": false,
+  "passwordHash": "kJtnNlHLdvw+Bsk1KlW6JNMUYVURZWFf8W6LkfyqfeGYStMKTK9s/jach+aNGMlQ/awFW1/o+/457Y+FJvP6jg==",
+  "salt": "n0KN5leuiqTlhg==",
+  "lastSignedInAt": "1555970723925",
+  "createdAt": "1555970723925",
+  "providerUserInfo": []
+},
+{
+  "localId": "PEk3u0vqR9TFsiHc2NPG5LxYPco1",
+  "email": "lovelightandhealing@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "iq2Db5RillLU+9rk0aWxyXAIKuVOfckp8TLYuw7z2L/x8J/Pt1JSGnXC9ajiZDcUmWp6P5ON8GiIpFGp+Jhhng==",
+  "salt": "ZeXUrW98eYLPsg==",
+  "lastSignedInAt": "1555971771834",
+  "createdAt": "1555971771834",
+  "providerUserInfo": []
+},
+{
+  "localId": "UTgVrNhgm5MsuuTqOMf9OlV3YuJ3",
+  "email": "sddyck@icloud.com",
+  "emailVerified": false,
+  "passwordHash": "6zeuQEQLgq3VzcIGxfp6voOH5IY4IaTJJZmd1aYYi0zthP7FYkzCEdHH91+ZC1cRhc7eF11JJxaOvejrm7mWQg==",
+  "salt": "Bzi1nCO6Q2KAIw==",
+  "lastSignedInAt": "1556642029726",
+  "createdAt": "1556642029726",
+  "providerUserInfo": []
+},
+{
+  "localId": "VDctaXM4HFYTYpHP2HyONSxkgmD2",
+  "email": "lk_matthews@yahoo.com",
+  "emailVerified": false,
+  "passwordHash": "+VmNUZoKoOQdO6daVQy0Bu7lhFXXcoPhFLopzsxhvyu+8XG6K+wzG2KrGnPSuevYC49OoB4QrUkf8ahIHbOlsw==",
+  "salt": "1nDUZXbZ0V94zw==",
+  "lastSignedInAt": "1555943642963",
+  "createdAt": "1555943642963",
+  "providerUserInfo": []
+},
+{
+  "localId": "YG3wBBZV1qZ28PKguXA7La0FTrt2",
+  "email": "chris@aloa.co",
+  "emailVerified": false,
+  "passwordHash": "7OKLsHz0KO50uFzQ73jfCxQbSPjiTjzwGWBKy3DZUieg2KxdRoRq5w1iZijylrH5XB85CDIGFsKMMMbwdC12Qg==",
+  "salt": "+YrVGjgKwxCreA==",
+  "lastSignedInAt": "1555694203152",
+  "createdAt": "1555694203152",
+  "providerUserInfo": []
+},
+{
+  "localId": "aCA56oA7YlaT4a3kc2ljc56W7pt1",
+  "email": "jpontius27@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "gYRZkzsJSuIzv3m4JdEXUtZdmzgOUN95tYiWeHTuXa6J0xO8TBWJ32iT3GNuHM5D3Bx4EFey7tM2xh2qPWdTng==",
+  "salt": "bJtICs6Vl8vGAA==",
+  "lastSignedInAt": "1557749112240",
+  "createdAt": "1557749112240",
+  "providerUserInfo": []
+},
+{
+  "localId": "ddvz6EPozAgoTniij0oH0nzobwr1",
+  "email": "mitchellericmiller@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "2RpZ71mekc/isShtU+osAp5kOpQHZBF91/26w+bNOMGHsJJDSyoQ64ln0dXV5MWCjD27g0Fr+ZX+TJXCBLmvZQ==",
+  "salt": "N9ReWfy/XBXVtg==",
+  "lastSignedInAt": "1558364012667",
+  "createdAt": "1558364012667",
+  "providerUserInfo": []
+},
+{
+  "localId": "l4NRrGnSFKgXkYNIP7cmHcujihJ3",
+  "email": "gsloan@danieladvisors.com",
+  "emailVerified": false,
+  "passwordHash": "5eB4o+B3NRNvS/wrwj4SNBds+E/8MzibOxnc8O/iyM6HUtlZZLPZMUSj8qIhNyWjPcvM1cuWshA5xiVGHseqaw==",
+  "salt": "WKHA4XbFyDR2+g==",
+  "lastSignedInAt": "1556803133948",
+  "createdAt": "1555676741715",
+  "providerUserInfo": []
+},
+{
+  "localId": "rZTlBp3iqWTcTIXhccT0sgcwWjq1",
+  "email": "gsloan907@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "G63+cyc+n6wYcbSaNiksUOno+4GtwdPuxjFESwonULbQKwMheOpbWYFq+q8IfdTCT0Fb7zsZRvxlyP5VvxRZlg==",
+  "salt": "dSuYkeG37/vmgg==",
+  "lastSignedInAt": "1555584816598",
+  "createdAt": "1555584816598",
+  "providerUserInfo": []
+},
+{
+  "localId": "tZhi6Ucz2vaAdVi7UvwaBIEESA13",
+  "email": "alan@rpgplanner.com",
+  "emailVerified": false,
+  "passwordHash": "+w2z5iCiaYTOG3v3hSo3EVKcGKBDYvI55evDiloza8/dVa/lheglodIB84EX+C99nMZ8GYBmK5Fc4ccppE/gPg==",
+  "salt": "MfILEvvEqIvJGw==",
+  "lastSignedInAt": "1557852304376",
+  "createdAt": "1557852304376",
+  "providerUserInfo": []
+},
+{
+  "localId": "tohKmSEr5nYKIpfEeV8JBbVUkX33",
+  "email": "pontiusamy@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "RCIgL72XoTBUQDALmDUTzru9J2Lxq7uKGNxOj+/z3vYhdHVdy6XlCh9p3MuPQST3fRQ/qVJ69PfF++MK9vDCXw==",
+  "salt": "2V/h1qVZMC7Aeg==",
+  "lastSignedInAt": "1557749115732",
+  "createdAt": "1557749115732",
+  "providerUserInfo": []
+},
+{
+  "localId": "y8oOMqHMfffpnxc7EnDevgkYwZG2",
+  "email": "davidpence15@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "bjrbJO5ZahI1PQA8x8DdF2aswf+PZTpkrNQnc7euEC2qsS4zW5AD44gAq/8uaFmE/RqNkC+pm/Kf5ezi9BU3Dg==",
+  "salt": "3puo/u0QyQprUA==",
+  "lastSignedInAt": "1557512007237",
+  "createdAt": "1556212306553",
+  "providerUserInfo": []
+}]}
