@@ -1,7 +1,7 @@
 import Firebase from 'firebase/app'
 import ReactGA from 'react-ga'
 
-const logIn = () => {
+const logInEmail = () => {
     ReactGA.event({
         category: 'User',
         action: 'Log in',
@@ -12,9 +12,7 @@ const logIn = () => {
     const loginButton = document.getElementById('loginButton');
     const loginError = document.getElementById('loginError');
     // code to check only users are loggedin not admins...
-    let users = [];
-    let userAlreadyExist = false;
-    Firebase.firestore().collection("users").where("role", "==", "user")
+    Firebase.firestore().collection("users").where("isAdmin", "==", false)
         .get()
         .then(snapshot => {
             if (snapshot.empty) {
@@ -67,4 +65,4 @@ const logIn = () => {
         })
 };
 
-export default logIn
+export default logInEmail

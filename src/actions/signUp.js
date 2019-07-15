@@ -27,6 +27,7 @@ const signUp = () => {
                 company: document.getElementById('company').value,
                 phoneNumber: "",
                 verification_code: "",
+                isAdmin: false,
                 role: "user"
             });
             const team = Firebase.firestore().collection("teams").doc("team1").get();
@@ -41,6 +42,7 @@ const signUp = () => {
                             company: document.getElementById('company').value,
                             phoneNumber: "",
                             verification_code: "",
+                            isAdmin: false,
                             role: "user"
                         });
                     }
@@ -79,6 +81,6 @@ const signUp = () => {
                     });
 
         })
-}
+};
 
 export default signUp

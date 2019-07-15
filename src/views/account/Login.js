@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logIn from '../../actions/logIn'
+import logInEmail from '../../actions/logIn'
 import {
     Page,
 } from '../../styles/layout'
@@ -19,7 +19,7 @@ const Login = () => (
                                data-name="Login Password" placeholder="password" id="loginPassword" required=""/>
                     </form>
                 </div>
-                <button id="loginButton" className="submit-button" onClick={logIn}>Log In</button>
+                <button id="loginButton" className="submit-button" onClick={logInEmail}>Log In</button>
                 <p id="loginError" className="error-message">Error message</p>
                 <a id="forgotPassword" href="reset-password">
                     <div className="link">Forgot Password?</div>
