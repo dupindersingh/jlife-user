@@ -7,42 +7,42 @@ import React from 'react'
 
 class FirebaseAuth extends React.Component {
 
-  state = {
-    isLoading: true,
-    error: null,
-    auth: null,
-  };
-
-  componentDidMount() {
-    this.unsubscribe = Firebase.auth()
-      .onAuthStateChanged(this.handleAuth, this.handleError)
-  }
-
-  componentWillUnmount() {
-    if (this.unsubscribe) {
-      this.unsubscribe()
+    state = {
+        isLoading: true,
+        error: null,
+        auth: null,
     }
-  }
 
-  handleAuth = auth => {
-    this.setState({
-      isLoading: false,
-      auth,
-      error: null,
-    })
-  }
+    componentDidMount() {
+        this.unsubscribe = Firebase.auth()
+            .onAuthStateChanged(this.handleAuth, this.handleError)
+    }
 
-  handleError = error => {
-    this.setState({
-      isLoading: false,
-      auth: null,
-      error,
-    })
-  }
+    componentWillUnmount() {
+        if (this.unsubscribe) {
+            this.unsubscribe()
+        }
+    }
 
-  render() {
-    return this.props.children(this.state)
-  }
+    handleAuth = auth => {
+        this.setState({
+            isLoading: false,
+            auth,
+            error: null,
+        })
+    }
+
+    handleError = error => {
+        this.setState({
+            isLoading: false,
+            auth: null,
+            error,
+        })
+    }
+
+    render() {
+        return this.props.children(this.state)
+    }
 
 }
 

@@ -9,6 +9,7 @@ import Error from './misc/Error'
 import Register from './account/Signup'
 import Login from './account/Login';
 import Menu from './menu/Menu';
+import Managers from './members/Members';
 import Discover from './Discover/Discover'
 import Define from './Define/Define';
 import ComingSoon from './misc/ComingSoon';
@@ -20,6 +21,7 @@ const Routes = () => (
     <Route path="/signup" component={Register} />
     <Route path="/reset-password" component={ResetPassword} />
     <Route path="/menu" component={Menu} />
+    <Route path="/managers" component={Managers} />
     <Route exact path="/discover" component={Discover} />
     <Route exact path="/define" component={Define} />
     <Route path="/account" component={Account} />

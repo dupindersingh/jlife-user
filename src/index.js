@@ -6,6 +6,7 @@ import 'firebase/auth'
 import 'firebase/firestore'
 // import firebaseui from 'firebaseui'
 import './styles/design.css';
+import './styles/customize.css';
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactGA from 'react-ga'

@@ -6,68 +6,68 @@ import Intercom from 'react-intercom'
 import firebase from 'firebase'
 import FirebaseAuth from '../misc/FirebaseAuth'
 import {
-  HeaderFooterWrapper,
+    HeaderFooterWrapper,
 } from '../../styles/layout'
 import './HeaderStyles.css'
 import {
-  HeaderLink,
+    HeaderLink,
 } from '../../styles/links'
 import {
-  Redirect,
+    Redirect,
 } from "react-router-dom";
 
 async function userInfo() {
-  let info = {}
-  firebase.auth().onAuthStateChanged(function(user) {
-    info["email"] = user.email;
-    info["name"] = user.displayName
-  })
-  return info;
+    let info = {}
+    firebase.auth().onAuthStateChanged(function(user) {
+        info["email"] = user.email;
+        info["name"] = user.displayName
+    })
+    return info;
 }
 
 const Layout = ({ children }) => (
-  <HeaderFooterWrapper>
+    <HeaderFooterWrapper>
 
-    <div className="header">
-      <div className="headerNav">
-        <HeaderLink to="/" className="navTitle w-nav">JourneyLIFE</HeaderLink>
-        <FirebaseAuth>
-          {({ isLoading, error, auth }) => {
-            if (isLoading) {
-              return null
-            }
-            if (error) {
-              return '⚠️ login error'
-            }
-            if (auth) {
-              if (window.location.pathname === "/") {
-                return <Redirect to={{ pathname: "/menu" }} />
-              } else {
-                return <div className="navBar">
-                  <HeaderLink to="/menu" className="nav-link">
-                  <img src={require(`../../media/homeIcon.png`)} className="navIcon" alt={'home icon'} />
-                  </HeaderLink>
-                  <HeaderLink to={`/account`} className="nav-link">
-                    <img src={require(`../../media/accountIcon.png`)} className="navIcon" alt={'account icon'} />
-                  </HeaderLink>
-                </div>
-              }
-            } else if (window.location.pathname === "/signup" || window.location.pathname === "/reset-password") {
-              return null
-            } else if (window.location.pathname !== "/") {
-              return <Redirect to={{ pathname: "/" }} />
-            } else {
-              return null;
-            }
-          }}
-        </FirebaseAuth>
-      </div>
-    </div>
+        <div className="header">
+            <div className="headerNav">
+                <HeaderLink to="/" className="navTitle w-nav">JourneyLIFE</HeaderLink>
+                <FirebaseAuth>
+                    {({ isLoading, error, auth }) => {
+                        if (isLoading) {
+                            return null
+                        }
+                        if (error) {
+                            return '⚠️ login error'
+                        }
+                        if (auth) {
+                            if (window.location.pathname === "/") {
+                                return <Redirect to={{ pathname: "/menu" }} />
+                            } else {
+                                return <div className="navBar">
+                                    <HeaderLink to="/menu" className="nav-link">
+                                        <img src={require(`../../media/homeIcon.png`)} className="navIcon" alt={'home icon'} />
+                                    </HeaderLink>
+                                    <HeaderLink to={`/account`} className="nav-link">
+                                        <img src={require(`../../media/accountIcon.png`)} className="navIcon" alt={'account icon'} />
+                                    </HeaderLink>
+                                </div>
+                            }
+                        } else if (window.location.pathname === "/signup" || window.location.pathname === "/reset-password") {
+                            return null
+                        } else if (window.location.pathname !== "/") {
+                            return <Redirect to={{ pathname: "/" }} />
+                        } else {
+                            return null;
+                        }
+                    }}
+                </FirebaseAuth>
+            </div>
+        </div>
 
-    {children}
-    
-    <Intercom appID="mh0y5kvx" {...userInfo}/>
-  </HeaderFooterWrapper>
+        {children}
+
+        <Intercom appID="mh0y5kvx" {...userInfo}/>
+    </HeaderFooterWrapper>
 )
 
 export default Layout
