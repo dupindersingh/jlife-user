@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b45ba821-fb8b-4cd0-af35-4fc199d71ec4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/logIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/logIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/account/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/account/Signup.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/account/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="82" lean-forward="true" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+            <state relative-caret-position="242">
+              <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -77,11 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/logIn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -126,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>firebase.au</find>
       <find>userinf</find>
       <find>Intercom</find>
       <find>recaptcha-container</find>
@@ -135,7 +131,6 @@
       <find>phoneLogin</find>
       <find>phonelogin</find>
       <find>reset</find>
-      <find>where</find>
       <find>render</find>
       <find>toLowerCase</find>
       <find>email</find>
@@ -153,9 +148,11 @@
       <find>none</find>
       <find>settim</find>
       <find>pattern</find>
-      <find>alert</find>
-      <find>loginButton</find>
       <find>isEmailExist</find>
+      <find>where</find>
+      <find>loginButton</find>
+      <find>alert</find>
+      <find>console.lo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -185,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/views/teams/Teams.js" />
         <option value="$PROJECT_DIR$/src/views/teams/TeamDetails.js" />
         <option value="$PROJECT_DIR$/src/views/account/signup.css" />
-        <option value="$PROJECT_DIR$/src/views/account/Login.js" />
         <option value="$PROJECT_DIR$/src/views/App.js" />
         <option value="$PROJECT_DIR$/src/styles/customize.css" />
         <option value="$PROJECT_DIR$/src/actions/signUp.js" />
@@ -199,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/views/layout/Layout.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/src/views/account/Signup.js" />
+        <option value="$PROJECT_DIR$/src/views/account/Login.js" />
         <option value="$PROJECT_DIR$/src/actions/logIn.js" />
       </list>
     </option>
@@ -319,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164683000" />
+    <option name="totallyTimeSpent" value="168654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,10 +329,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="749" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77544427" visible="true" weight="0.24944155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77649325" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.22455573" side_tool="true" visible="true" weight="0.24944155" />
+      <window_info id="npm" order="2" sideWeight="0.22350675" side_tool="true" visible="true" weight="0.24944155" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -348,7 +346,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.11764706" side_tool="true" weight="0.720517" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.88235295" weight="0.1987076" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.88235295" visible="true" weight="0.1615509" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -694,26 +692,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/media/members.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/account/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="82" lean-forward="true" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+        <state relative-caret-position="242">
+          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/media/members.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/logIn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
         </state>
       </provider>
     </entry>
