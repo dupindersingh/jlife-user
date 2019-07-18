@@ -5,6 +5,8 @@ import {Page,} from '../../styles/layout'
 import './signup.css'
 import ReactGA from "react-ga";
 
+let thi = this;
+
 export default class Register extends React.Component {
   constructor(props) {
     super(props);
@@ -18,16 +20,24 @@ export default class Register extends React.Component {
   }
 
   componentDidMount() {
-    window.recaptchaVerifier = new Firebase.auth.RecaptchaVerifier("recaptcha-container",
+    window.recaptchaVerifier = new Firebase.auth.RecaptchaVerifier("recaptcha",
         {
           // type: 'image', // another option is 'audio'
           size: 'invisible', // other options are 'normal' or 'compact'
           // badge: 'bottomleft' // 'bottomright' or 'inline' applies to invisible.
-        });
+          'callback': function (response) {
+            // reCAPTCHA solved, allow signInWithPhoneNumber.
+            alert("captacha solved");
+            thi.phoneLogin();
+          },
+          'expired-callback': function () {
+            alert("expired captacha !! Please solve again")
+          }
+        })
   }
 
   phoneLogin(e) {
-    e.preventDefault();
+    // e.preventDefault();
     const thi = this;
     const phoneNumber = thi.state.phoneNumber;
     const appVerifier = window.recaptchaVerifier;
@@ -51,14 +61,19 @@ export default class Register extends React.Component {
           console.log(confirmResult, "confirm esul...");
         })
         .catch(error => {
-          var errorCode = error.code;
-          var errorMessage = error.message;
-          console.log('Error code: ' + errorCode);
-          console.log('Error message: ' + errorMessage);
-          if (!!signupButton && !!signupError) {
-            signupButton.style.display = 'block';
-            signupError.innerText = errorMessage;
-            signupError.style.display = 'block';
+          window.recaptchaVerifier.render().then(widgetId => {
+            window.recaptchaVerifier.reset(widgetId);
+          });
+          if (error.message !== "An internal error has occurred.") {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log('Error code: ' + errorCode);
+            console.log('Error message: ' + errorMessage);
+            if (!!signupButton && !!signupError) {
+              signupButton.style.display = 'block';
+              signupError.innerText = errorMessage;
+              signupError.style.display = 'block';
+            }
           }
         });
   }
@@ -299,7 +314,8 @@ export default class Register extends React.Component {
                          data-name="signup Password"
                          placeholder="PhoneNumber e.g. +919783456734" id="signupPassword"
                          onChange={this.onCodeChange.bind(this)}/>
-                  <button id="recaptcha-container" type={"button"} className="submit-button"
+                  {/*<div id="recaptcha">jhk</div>*/}
+                  <button id="recaptcha" type={"button"} className="submit-button"
                           onClick={this.phoneLogin.bind(this)}
                           data-toggle="modal"
                           data-target="#dialogBox"
